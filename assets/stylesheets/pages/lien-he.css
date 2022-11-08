@@ -50,12 +50,16 @@
   margin-left: 10px;
 }
 
+.address-content div:nth-child(1) {
+  display: flex;
+}
+
 .address .address-content {
   display: flex;
   margin-bottom: 10px;
-  gap: 7px;
   font-size: 16px;
   color: black;
+  gap: 20px;
 }
 
 .address-content a {
@@ -67,6 +71,7 @@
 
 .address i {
   color: #008000;
+  margin-right: 10px;
 }
 
 .contact-header .link-wrapper {
@@ -161,4 +166,13 @@
 .gmap_iframe {
   width: 100% !important;
   height: 300px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .address .address-content {
+    width: 100%;
+  }
+  .address .address-content {
+    justify-content: space-between;
+  }
 }
