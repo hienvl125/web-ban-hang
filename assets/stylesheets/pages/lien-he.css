@@ -1,0 +1,164 @@
+.contact-header h4 {
+  margin-bottom: 15px;
+  color: #008000;
+  text-align: center;
+}
+
+.contact-header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-header .wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 7px;
+}
+
+.contact-header span {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 12px;
+  font-style: italic;
+  color: #008000;
+  text-align: center;
+}
+
+.contact-header .wrapper i {
+  color: #008000;
+}
+
+.contact-header .wrapper p {
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+}
+
+.contact-header .wrapper p:nth-child(3) {
+  color: #008000;
+}
+
+.container .row {
+  display: flex;
+  gap: 30px;
+}
+
+.contact-header .address {
+  margin-left: 10px;
+}
+
+.address .address-content {
+  display: flex;
+  margin-bottom: 10px;
+  gap: 7px;
+  font-size: 16px;
+  color: black;
+}
+
+.address-content a {
+  text-decoration: none;
+  color: rgb(0, 128, 0);
+  font-style: italic;
+  font-weight: 500;
+}
+
+.address i {
+  color: #008000;
+}
+
+.contact-header .link-wrapper {
+  display: flex;
+  margin-bottom: 10px;
+  color: black;
+  font-size: 16px;
+  gap: 5px;
+}
+
+.link-wrapper a {
+  text-decoration: none;
+  color: #008000;
+  font-weight: 500;
+}
+
+.form {
+  margin: 30px 0px;
+  padding: 20px 10px;
+  background-color: #e9e9e9;
+}
+
+.form .contact-form {
+  display: flex;
+  justify-content: space-around;
+}
+
+.form div {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 15px;
+  width: 45%;
+}
+
+.form input {
+  margin-bottom: 15px;
+  padding: 6px 12px;
+  border: 2px;
+  font-size: 14px;
+  height: 20px;
+  color: #555;
+}
+
+.form button {
+  padding: 5px 20px;
+  border: 2px;
+  background-color: #338533;
+  color: white;
+  font-size: 15px;
+  width: fit-content;
+}
+
+.form textarea {
+  margin-bottom: 15px;
+  padding: 6px 12px;
+  border: 2px;
+}
+
+.map .map-item-wrapper {
+  margin-bottom: 10px;
+  padding: 20px 0px 5px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.map-section {
+  display: flex;
+  margin: 20px 0px 10px 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.map-section .mapouter {
+  width: 30%;
+}
+@media only screen and (max-width: 600px) {
+  .map-section .mapouter {
+    width: 100%;
+  }
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 350px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 300px;
+}
+.gmap_iframe {
+  width: 100% !important;
+  height: 300px !important;
+}
