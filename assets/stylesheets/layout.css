@@ -226,6 +226,7 @@ body {
 }
 
 .content {
+  width: 100%;
   flex: 1;
   padding: 0 20px;
 }
@@ -241,6 +242,7 @@ body {
 }
 
 .page-content {
+  width: 100%;
   flex: 1;
   margin-top: 10px;
 }
@@ -320,5 +322,9 @@ body {
 
   .footer-top > div:last-child {
     border: none;
+  }
+
+  .content {
+    padding: 0;
   }
 }
