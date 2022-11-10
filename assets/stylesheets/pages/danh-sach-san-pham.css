@@ -22,17 +22,11 @@
 
 .container .product-card {
   padding: 5px;
-  border: 1px solid #eee;
   padding-bottom: 10px;
   width: 21%;
   font-size: 14px;
+  border: 1px solid #eee;
   box-shadow: 0 10px 10px -10px rgb(0 0 0 / 50%);
-}
-
-@media only screen and (max-width: 600px) {
-  .container .product-card {
-    width: 100%;
-  }
 }
 
 .product-card img {
@@ -69,4 +63,19 @@
   text-align: center;
   text-decoration: none;
   font-weight: 500;
+}
+
+@media only screen and (max-width: 675px) and (min-width: 450px) {
+  .container .product-card {
+    font-size: 16px;
+    padding: 30px;
+    padding-bottom: 40px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .container .product-card {
+    width: 100%;
+  }
 }
