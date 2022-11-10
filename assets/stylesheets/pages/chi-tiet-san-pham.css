@@ -195,6 +195,7 @@ table tr:nth-child(11) span:nth-child(2) {
 
 @media only screen and (max-width: 675px) {
   .product-detail {
+    display: flex;
     flex-direction: column;
   }
 
@@ -203,7 +204,8 @@ table tr:nth-child(11) span:nth-child(2) {
   }
 
   .product-information {
-    width: 100%;
+    width: 95%;
     margin: 0px;
+    padding: 10px;
   }
 }
