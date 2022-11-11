@@ -214,6 +214,8 @@ h2.green-text-with-underline {
 @media (max-width: 992px) {
   .about-us {
     flex-direction: column;
+    box-sizing: border-box;
+    padding: 5px;
   }
   .about-us .left {
     display: none;
@@ -238,6 +240,11 @@ h2.green-text-with-underline {
     border: 0;
     padding: 0;
     margin: 5px 0;
+  }
+
+  .service {
+    box-sizing: border-box;
+    padding: 5px;
   }
 
   .product-card {
